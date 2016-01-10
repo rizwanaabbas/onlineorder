@@ -50,7 +50,7 @@ var app = {
 function fixHeight() {
 
    var h =  window.screen.availHeight;
-   //console.log(h);
+   console.log(h);
    document.getElementById('mainframe').height = (h) + "px";
    document.getElementById('app').style.height = (h) + "px";
 
