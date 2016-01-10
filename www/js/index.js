@@ -47,3 +47,11 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+function fixHeight() {
+
+   var h =  window.screen.availHeight;
+   //console.log(h);
+   document.getElementById('mainframe').height = (h) + "px";
+   document.getElementById('app').style.height = (h) + "px";
+
+}
