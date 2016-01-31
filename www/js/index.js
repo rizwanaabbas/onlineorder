@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        fixWrapHeight ();
     },
     // Bind Event Listeners
     //
@@ -47,11 +48,17 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+function fixWrapHeight () {
+    var h =  window.screen.availHeight;
+    var w =  window.screen.availWidth;
+    document.getElementById('deviceready').style.height = (h) + "px";
+    //document.getElementById('deviceready').style.width = (w) + "px";
+    document.getElementById('app').style.height = (h) + "px";
+    //document.getElementById('app').style.width = (w) + "px";
+}
 function fixHeight() {
 
    var h =  window.screen.availHeight;
-   //console.log(h);
    document.getElementById('mainframe').height = (h) + "px";
    document.getElementById('app').style.height = (h) + "px";
-
 }
