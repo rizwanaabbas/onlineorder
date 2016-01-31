@@ -81,15 +81,17 @@ background-color: #000;
 }
 .social-meida {
     clear: both;
+    display: none;
    
 }
 .social-meida ul{ float: right;margin-right: 10px;}
-.social-meida li{ float: left;list-style: none; width: 50px;}
+.social-meida li{ float: left;list-style: none; width: 100px;}
 .social-meida li img{ width: 90%;}
 .app-logo {
     clear: both;
     text-align: center;
     width: 100%;
+    display: none;
 }
 .app-logo > img {
     margin-left: 0;
@@ -99,12 +101,16 @@ background-color: #000;
 
 .about-page {
     clear: both;
-    margin-top: -45px;
+   
     position: relative;
     text-align: center;
+    display: none;
 }
 
 /* Landscape layout (with min-width) */
+@media (max-width: 320px) {
+    .social-meida li{ float: left;list-style: none; width: 65px;}
+}
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;

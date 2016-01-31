@@ -21,6 +21,11 @@ var app = {
     initialize: function() {
         this.bindEvents();
         fixWrapHeight ();
+        jQuery('.social-meida').fadeIn(400,function(){
+              jQuery('.app-logo').fadeIn(400,function(){
+                 jQuery('.about-page').fadeIn(400);
+              });
+        });
     },
     // Bind Event Listeners
     //
@@ -35,6 +40,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -45,7 +51,7 @@ var app = {
         //listeningElement.setAttribute('style', 'display:none;');
         //receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        //console.log('Received Event: ' + id);
     }
 };
 function fixWrapHeight () {
