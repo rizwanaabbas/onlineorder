@@ -31,11 +31,14 @@
     </head>
     <body>
         <div class="app" id="app">
-            <div class="header"><h1>iPA - Sapaad Online</h1></div>
+            <div class="header"><h1>iPA - Manoushetna Order Online</h1></div>
             <div id="deviceready" class="blink">
                 <!--<p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p> -->
-                <iframe style="width: 100%;  border: 0px; margin-bottom: 0px;" src="http://online.sapaad.com/users/new_order?key=92f00d8a1415f1fe8a0ddd54235c7581" onload="fixHeight()" id="mainframe"></iframe>
+               <script>
+                  var key = "47c982221bec0a49a5c8972fb0654368";
+                </script>
+                <script type="text/javascript" src="http://online.sapaad.com/weborder.js"></script>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
