@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>iPA - Sapaad Online</name>
+    <name>iPA - Manoushetna Order Online</name>
     <description>
-        This App will help customer to order online using sapaad systems.
+        This App will help customer to order online.
     </description>
     <author email="support@ipa.ae" href="http://ipa.ae">
        iPA Team
