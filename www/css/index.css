@@ -25,7 +25,16 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
-
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -34,7 +43,7 @@ body {
     padding:0px;
     text-transform:uppercase;
     width:100%;
-    background: url(../img/manoushetna-home.jpg);
+    background: url(../img/manoushetna-home.jpg) no-repeat;
 }
 body{
 background-color: #000; 
@@ -59,7 +68,6 @@ background-color: #000;
     /* padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     /* margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
-     background: url(../img/manoushetna-home.jpg);
 }
 .header {
     background: #abbf26 none repeat scroll 0 0;
@@ -104,11 +112,8 @@ background-color: #000;
 @media (max-width: 320px) {
     .social-meida li{ float: left;list-style: none; width: 65px;}
 }
-@media (max-width: 360px) {
+@media (min-width: 360px) {
    body{ background: url(../img/manoushetna-home.png);}
-   .app{
-        background: url(../img/manoushetna-home.png);
-   }
 }
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
