@@ -25,6 +25,7 @@ var app = {
               jQuery('.app-logo').fadeIn(600,function(){
                  jQuery('.about-page').fadeIn(400);
               });
+           
         });
     },
     // Bind Event Listeners
@@ -40,6 +41,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        document.addEventListener("orientationChanged", updateOrientation);
 
     },
     // Update DOM on a Received Event
@@ -54,6 +56,33 @@ var app = {
         //console.log('Received Event: ' + id);
     }
 };
+function updateOrientation()
+{
+    var e = window.orientation;
+    switch(e)
+    {  
+        case 0:
+            //PORTRAIT
+            document.body.style.backgroundImage = "url('img/manoushetna-home.png')";
+        break;
+
+        case -90:
+            // LANDSCAPE
+             document.body.style.backgroundImage = "url('img/manoushetna-home.jpg')";
+        break;
+
+        case 90:
+            // LANDSCAPE
+             document.body.style.backgroundImage = "url('img/manoushetna-home.jpg')";
+        break;
+
+        default:
+            //PORTRAIT
+             document.body.style.backgroundImage = "url('img/manoushetna-home.png')";
+
+        break;
+    }        
+}
 function fixWrapHeight () {
     var h =  window.screen.availHeight;
     var w =  window.screen.availWidth;
