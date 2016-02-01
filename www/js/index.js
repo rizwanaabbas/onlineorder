@@ -58,10 +58,10 @@ function fixWrapHeight () {
     var h =  window.screen.availHeight;
     var w =  window.screen.availWidth;
    
-   // document.getElementById('deviceready').style.height = (h) + "px";
+    document.getElementById('deviceready').style.height = (h) + "px";
     //document.getElementById('deviceready').style.width = (w) + "px";
    
-    //document.getElementById('app').style.height = (h) + "px";
+    document.getElementById('app').style.height = (h) + "px";
     //document.getElementById('app').style.width = (w) + "px";
 }
 function fixHeight() {
