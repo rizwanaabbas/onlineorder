@@ -22,7 +22,7 @@ var app = {
         this.bindEvents();
         fixWrapHeight ();
         jQuery('.social-meida').fadeIn(400,function(){
-              jQuery('.app-logo').fadeIn(400,function(){
+              jQuery('.app-logo').fadeIn(600,function(){
                  jQuery('.about-page').fadeIn(400);
               });
         });
@@ -57,9 +57,11 @@ var app = {
 function fixWrapHeight () {
     var h =  window.screen.availHeight;
     var w =  window.screen.availWidth;
-    document.getElementById('deviceready').style.height = (h) + "px";
+   
+   // document.getElementById('deviceready').style.height = (h) + "px";
     //document.getElementById('deviceready').style.width = (w) + "px";
-    document.getElementById('app').style.height = (h) + "px";
+   
+    //document.getElementById('app').style.height = (h) + "px";
     //document.getElementById('app').style.width = (w) + "px";
 }
 function fixHeight() {
