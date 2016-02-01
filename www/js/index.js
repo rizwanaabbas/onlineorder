@@ -61,6 +61,7 @@ function updateOrientation()
     var e = window.orientation;
     switch(e)
     {  
+        alert(e);
         case 0:
             //PORTRAIT
             document.body.style.backgroundImage = "url('img/manoushetna-home.png')";
