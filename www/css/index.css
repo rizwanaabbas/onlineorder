@@ -129,91 +129,91 @@ body{
 
 @media only screen and (max-device-width : 319px) {
     /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-360x640.png) no-repeat;
-       
-     }
-}
-@media only screen and (max-device-width : 320px) {
-    /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-320x480.png) no-repeat;
        
      }
 }
-@media only screen and (max-device-width : 360px) {
+@media only screen and (min-device-width : 320px) {
     /* Styles */
-    body{ 
+    .app{ 
+        background: url(../res/screen/android/home-320x480.png) no-repeat;
+       
+     }
+}
+@media only screen and (min-device-width : 360px) {
+    /* Styles */
+    .app{ 
         background: url(../res/screen/android/home-360x640.png) no-repeat;
        
      }
 }
-@media only screen  and (max-device-width : 480px) {
-    body{ 
+@media only screen  and (min-device-width : 480px) {
+    .app{ 
         background: url(../res/screen/android/home-320x480-2.png) no-repeat;
         
      }
 }
-@media only screen and (max-device-width : 600px) {
+@media only screen and (min-device-width : 600px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-1280x600.png) no-repeat;
        
      }
 }
 
-@media only screen  and (max-device-width : 640px) {
-    body{ 
+@media only screen  and (min-device-width : 640px) {
+    .app{ 
         background: url(../res/screen/android/home-360x640-2.png) no-repeat;
        
      }
 }
 
-@media only screen and (max-device-width : 768px) {
+@media only screen and (min-device-width : 768px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-768x1024.png) no-repeat;
         
      }
 }
-@media only screen  and (max-device-width : 1024px) {
-    body{ 
+@media only screen  and (min-device-width : 1024px) {
+    .app{ 
         background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
        
      }
 }
 
-@media only screen and (max-device-width : 800px) {
+@media only screen and (min-device-width : 800px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-800x1280.png) no-repeat;
        
      }
 }
-@media only screen and (max-device-width : 900px) {
+@media only screen and (min-device-width : 900px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-1920x900.png) no-repeat;
        
      }
 }
-@media only screen and (max-device-width : 980px) {
+@media only screen and (min-device-width : 980px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-980x1280.png) no-repeat;
        
      }
 }
-@media only screen  and (max-device-width : 1024px) {
-    body{ 
+@media only screen  and (min-device-width : 1024px) {
+    .app{ 
         background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
        
      }
 }
 
 
-@media only screen  and (max-device-width : 1280px) {
-    body{ 
+@media only screen  and (min-device-width : 1280px) {
+    .app{ 
         background: url(../res/screen/android/home-800x1280-2.png) no-repeat;
        }
 }
@@ -221,9 +221,9 @@ body{
 
 
 
-@media only screen and (max-device-width : 1920px) {
+@media only screen and (min-device-width : 1920px) {
     /* Styles */
-    body{ 
+    .app{ 
         background: url(../res/screen/android/home-1920x900-2.png) no-repeat;
         
      }
