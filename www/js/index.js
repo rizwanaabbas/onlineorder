@@ -24,6 +24,7 @@ var app = {
         jQuery('.social-meida').fadeIn(400,function(){
               jQuery('.app-logo').fadeIn(600,function(){
                  jQuery('.about-page').fadeIn(400);
+                 jQuery('#debug').html(jQuery('body').css('background-image'));
               });
         });
     },
