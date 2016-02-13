@@ -60,6 +60,9 @@ var app = {
 function fixWrapHeight () {
     var h =  window.screen.availHeight;
     var w =  window.screen.availWidth;
+    var ratio = window.devicePixelRatio || 1;
+    var w = screen.width * ratio;
+    var h = screen.height * ratio;
     //document.getElementById('deviceready').style.height = (h) + "px";
     //document.getElementById('deviceready').style.width = (w) + "px";
     //document.getElementById('app').style.height = (h) + "px";
