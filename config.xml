@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ipa.manoushetna" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>iPA - Manoushetna Order Online</name>
+<widget id="com.ipa.manoushetna" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>iPA - Manoushetna Online Menu</name>
     <description>
         This App will help customer to order online.
     </description>
