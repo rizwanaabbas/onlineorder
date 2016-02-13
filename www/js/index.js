@@ -60,10 +60,11 @@ var app = {
 function fixWrapHeight () {
     var h =  window.screen.availHeight;
     var w =  window.screen.availWidth;
-    document.getElementById('deviceready').style.height = (h) + "px";
+    //document.getElementById('deviceready').style.height = (h) + "px";
     //document.getElementById('deviceready').style.width = (w) + "px";
-   
-    document.getElementById('app').style.height = (h) + "px";
+    //document.getElementById('app').style.height = (h) + "px";
+    //alert(h);
+    //jQuery('#debug').html(jQuery('.app').css('background-image'));
     //document.getElementById('app').style.width = (w) + "px";
 }
 function fixHeight() {
@@ -72,3 +73,11 @@ function fixHeight() {
    document.getElementById('mainframe').height = (h) + "px";
    document.getElementById('app').style.height = (h) + "px";
 }
+window.addEventListener("resize", function() {
+    // Get screen size (inner/outerWidth, inner/outerHeight)
+    fixWrapHeight ();
+}, false);
+jQuery(document).ready(function(){
+    jQuery(window).on("orientationchange",function(event){fixWrapHeight ();});
+
+});
