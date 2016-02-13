@@ -25,6 +25,8 @@ var app = {
               jQuery('.app-logo').fadeIn(600,function(){
                  jQuery('.about-page').fadeIn(400);
                  jQuery('#debug').html(jQuery('body').css('background-image'));
+                 alert(jQuery('body').css('background-image'));
+
               });
         });
     },
