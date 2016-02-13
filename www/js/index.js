@@ -67,7 +67,7 @@ function fixWrapHeight () {
     //document.getElementById('deviceready').style.width = (w) + "px";
     //document.getElementById('app').style.height = (h) + "px";
     //alert(h);
-    jQuery('#debug').html(jQuery('.app').css('background-image')+ ' Height: '+h );
+    //jQuery('#debug').html(jQuery('.app').css('background-image')+ ' Height: '+h );
     //document.getElementById('app').style.width = (w) + "px";
 }
 function fixHeight() {
