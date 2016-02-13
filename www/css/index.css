@@ -95,115 +95,12 @@ body{
     display: none;
 }
 
-/* Landscape layout (with min-width) */
-@media (max-width: 320px) {
-    .social-meida li{ float: left;list-style: none; width: 65px;}
-}
-@media (min-width: 414px) {
-   
 
-}
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {  
-   body {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-               
-    }
-}
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen and (max-device-width : 319px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-320x480.png) no-repeat;
-       
-     }
-}
-@media only screen and (min-device-width : 320px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-320x480.png) no-repeat;
-       
-     }
-}
-@media only screen and (min-device-width : 360px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-360x640.png) no-repeat;
-       
-     }
-}
-@media only screen  and (min-device-width : 480px) {
-    body{ 
-        background: url(../res/screen/android/home-320x480-2.png) no-repeat;
-        
-     }
-}
-@media only screen and (min-device-width : 600px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-1280x600.png) no-repeat;
-       
-     }
-}
-
-@media only screen  and (min-device-width : 640px) {
-    body{ 
-        background: url(../res/screen/android/home-360x640-2.png) no-repeat;
-       
-     }
-}
-
-@media only screen and (min-device-width : 768px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-768x1024.png) no-repeat;
-        
-     }
-}
-@media only screen  and (min-device-width : 1024px) {
-    body{ 
-        background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
-       
-     }
-}
-
-@media only screen and (min-device-width : 800px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-800x1280.png) no-repeat;
-       
-     }
-}
-@media only screen and (min-device-width : 900px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-1920x900.png) no-repeat;
-       
-     }
-}
-@media only screen and (min-device-width : 980px) {
-    /* Styles */
-    body{ 
-        background: url(../res/screen/android/home-980x1280.png) no-repeat;
-       
-     }
-}
-@media only screen  and (min-device-width : 1024px) {
-    body{ 
-        background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
-       
-     }
-}
 
 
-@media only screen  and (min-device-width : 1280px) {
-    body{ 
-        background: url(../res/screen/android/home-800x1280-2.png) no-repeat;
-       }
-}
+
 
 
 
@@ -215,8 +112,113 @@ body{
         
      }
 }
+@media only screen  and (min-device-width : 1280px) {
+    body{ 
+        background: url(../res/screen/android/home-800x1280-2.png) no-repeat;
+       }
+}
+@media only screen  and (min-device-width : 1024px) {
+    body{ 
+        background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
+       
+     }
+}
+@media only screen and (min-device-width : 980px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-980x1280.png) no-repeat;
+       
+     }
+}
+
+@media only screen and (min-device-width : 900px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-1920x900.png) no-repeat;
+       
+     }
+}
+
+@media only screen and (min-device-width : 800px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-800x1280.png) no-repeat;
+       
+     }
+}
+@media only screen  and (min-device-width : 1024px) {
+    body{ 
+        background: url(../res/screen/android/home-768x1024-2.png) no-repeat;
+       
+     }
+}
+@media only screen and (min-device-width : 768px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-768x1024.png) no-repeat;
+        
+     }
+}
+@media only screen  and (min-device-width : 640px) {
+    body{ 
+        background: url(../res/screen/android/home-360x640-2.png) no-repeat;
+       
+     }
+}
+@media only screen and (min-device-width : 600px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-1280x600.png) no-repeat;
+       
+     }
+}
+@media only screen  and (min-device-width : 480px) {
+    body{ 
+        background: url(../res/screen/android/home-320x480-2.png) no-repeat;
+        
+     }
+}
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {  
+   body {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+               
+    }
+}
+@media only screen and (min-device-width : 360px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-360x640.png) no-repeat;
+       
+     }
+}
+@media only screen and (min-device-width : 320px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-320x480.png) no-repeat;
+       
+     }
+}
+/* Landscape layout (with min-width) */
+@media (max-width: 320px) {
+    .social-meida li{ float: left;list-style: none; width: 65px;}
+}
+
+@media only screen and (max-device-width : 319px) {
+    /* Styles */
+    body{ 
+        background: url(../res/screen/android/home-320x480.png) no-repeat;
+       
+     }
+}
 
 
+@media (min-width: 414px) {
+   
+
+}
 
 
 h1 {
